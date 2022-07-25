@@ -11,7 +11,7 @@ module.exports = {
   user_permissions: ["SEND_MESSAGES"], // требуемые права для пользователя
   user_roles: [], // требуемые роли для пользователя
   bot_permissions: ["SEND_MESSAGES"], // требуемые права для бота
-  componentsNames: [""],
+  componentsNames: [""] // id кнопок, селект меню и другого,
   slash: new SlashCommandBuilder()
     .setName(name)
     .setDescription(description),
